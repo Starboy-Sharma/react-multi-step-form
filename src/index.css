@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+
+  &:active {
+    background-color: #00439a;
+  }
+}
+
+.form-wrapper {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-height: 30rem;
+  width: 40rem;
+  position: relative;
+}
+
+.form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-wrapper form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-wrapper form div label {
+  font-weight: 600;
+}
+
+.form-wrapper form div input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-wrapper form div select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-wrapper form div .terms-and-conditions input {
+  margin-right: 0.5rem;
+}
+
+.form-wrapper form div .terms-and-conditions label {
+  font-weight: normal;
+}
+
+.form-wrapper form div .terms-and-conditions a {
+  text-decoration: underline;
+}
+
+.form-wrapper form div .terms-and-conditions a:visited {
+  color: #007BFF;
+}
+
+.form-wrapper form div .terms-and-conditions a:hover {
+  color: #0056b3;
+}
+
+.form-wrapper form div .terms-and-conditions a:active {
+  color: #00439a;
+}
+
+.form-wrapper form div button {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  width: calc(100% - 2rem);
+}
+
+.form-wrapper .back {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
