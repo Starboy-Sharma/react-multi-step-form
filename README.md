@@ -1,8 +1,13 @@
-# React + Vite
+## React Multi Step Form
+In this repository I'll create multi step form in React using context api and redux store.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+User can navigate between form without loosing there state.
 
-Currently, two official plugins are available:
+On page reload the user data will not be lost.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+- Clone the repo
+- In the project root run cmd `npm i`
+- Start the app `npm run dev`
+- To generate build `npm run build`.
+
